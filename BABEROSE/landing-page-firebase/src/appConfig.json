@@ -1,0 +1,7 @@
+{
+  "metaTitle": "LANDING PAGE TITLE",
+  "metaDescription": "DESCRIPTION FOR PREVIEW POST",
+  "metaImageBaseURL": "https://res.cloudinary.com/facepaint/image/upload/pg_1/v1578079072/BABE",
+  "userImageBaseURL": "https://res.cloudinary.com/facepaint/image/upload/v1578079072/BABE",
+  "landingPageBaseURL": "https://babe-landing.herokuapp.com/user"
+}

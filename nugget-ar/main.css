@@ -1,0 +1,143 @@
+*:focus {
+    outline: 0 !important;
+}
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #FFDA00;
+}
+#main{
+    /*position: fixed;*/
+
+    top: 0px;
+    left:0px;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+#logo{
+    bottom: 2vh;
+    position: fixed;
+    left: calc(50vw - 15vw);
+    width: 30vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    border: none;
+}
+#logo >img{
+    width: 100%;
+}
+
+#cam{
+    bottom: 0px;
+    left: 0px;
+    position: fixed;
+    /*left: calc(50vw - 9.5vw);*/
+    margin: 2vh;
+    min-width: 15vw;
+    min-height: 15vw;
+    background-image: url("assets/flip.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    border: none;
+}
+
+#audio{
+    bottom: 0px;
+    position: fixed;
+    right: 0px;
+    margin: 2vh;
+    min-width: 15vw;
+    min-height: 15vw;
+    background-image: url("assets/mute.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    border: none;
+}
+
+.inner{
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 10vh;
+}
+
+/*front page*/
+.inner>img{
+    width: 100%;
+    height: auto;
+}
+
+.middle{
+    width: 70% !important;
+}
+
+.bottom{
+    width: 60% !important;
+    background-color: white;
+    border: black solid 5px;
+    height: 10vh;
+    padding-bottom: 0;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    display: table;
+}
+.bottom>.inner{
+    display: table-cell;
+    vertical-align: middle;
+    padding-bottom: 0;
+}
+.bottom>.inner>img{
+    width: 100%;
+}
+
+.button-wrap{
+    padding: 2vh !important;
+}
+
+
+.banner{
+    margin-top: 1vh;
+}
+
+/*back page*/
+
+.inner-back{
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 5vh;
+}
+.inner-back>img{
+    width: 100%;
+    height: auto;
+}
+
+.msg1{
+    width: 80%;
+    padding-bottom: 10vh;
+}
+.msg2{
+    width: 80%;
+}
+.divider{
+    width: 20%;
+    height: 1vh;
+    padding-bottom: 5vh;
+}
+.divider>img{
+    width: 100%;
+}
+.msg3{
+     width: 50%;
+    padding-bottom: 2vh;
+}
+.msg4{
+    width: 40%;
+}

@@ -1,0 +1,28 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "bin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "pkg": {
+    "assets": "./build/**/*"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "better-queue": "latest",
+    "body-parser": "latest",
+    "callbag-basics": "latest",
+    "callbag-flatten": "latest",
+    "callbag-from-promise": "latest",
+    "colors": "latest",
+    "express": "latest",
+    "express-ws": "latest",
+    "log4js": "latest",
+    "lowdb": "latest",
+    "request": "latest"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "amway-landing",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@cycle/dom": "^22.3.0",
+    "@cycle/http": "^15.1.0",
+    "@cycle/react": "^2.0.0",
+    "@cycle/react-dom": "latest",
+    "@cycle/run": "^5.2.0",
+    "@cycle/xstream-run": "^4.2.0",
+    "@types/jest": "^24.0.0",
+    "@types/node": "^10.12.21",
+    "@types/react": "^16.8.2",
+    "@types/react-dom": "^16.8.0",
+    "@types/react-helmet": "^5.0.8",
+    "@types/react-share": "^2.1.1",
+    "query-string": "^6.3.0",
+    "react": "^16.8.0",
+    "react-app-polyfill": "^1.0.0",
+    "react-dom": "^16.8.0",
+    "react-scripts": "2.1.3",
+    "react-share": "^2.4.0",
+    "switch-path": "^1.2.0",
+    "typescript": "^3.3.1",
+    "xstream": "^11.10.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "ie >= 9"
+  ],
+  "devDependencies": {
+    "@types/react-router-dom": "^4.3.1"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Amway-landing-page",
+  "version": "1.0.0",
+  "description": "landing page",
+  "engines": {
+    "node": "8.9.x"
+  },
+  "scripts": {
+    "start": "node server",
+    "start:dev": "concurrently 'npm:start-node' 'npm:start-react'",
+    "start-node": "node server",
+    "start-react": "npm --prefix react-ui start",
+    "heroku-postbuild": "cd react-ui/ && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
+  },
+  "cacheDirectories": [
+    "node_modules",
+    "react-ui/node_modules"
+  ],
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mysql": "^2.17.1",
+    "nocache": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "create-react-app",
+    "react"
+  ],
+  "license": "MIT",
+  "devDependencies": {}
+}

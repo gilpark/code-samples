@@ -1,0 +1,187 @@
+@font-face {
+  font-family: AvenirNextHeavyItalic;
+  src: url(./assets/font/AvenirNext-HeavyItalic.ttf) format('truetype'),
+  url(./assets/font/AvenirNext-HeavyItalic.woff) format('woff'),
+  url(./assets/font/AvenirNext-HeavyItalic.woff2) format('woff2')
+}
+
+
+*{
+  font-family: AvenirNextHeavyItalic;
+}
+
+body{
+  background: #FDE0E0;
+  color: #1D2972;
+}
+
+.k-input{
+  width: 100%;
+  border-width: 0 0 0.5vh 0;
+  font-size: 4vh;
+  color: #1D2972;
+  background: none;
+  border-color: #1D2972;
+  height: 8vh;
+}
+.k-input:focus{
+  outline-width: 0;
+  /*border-color: #D4172F;*/
+  border-color: #ffffff;
+}
+
+/*key board styling*/
+.keyboard{
+  width:100%;
+  max-width:1030px;
+  margin:0 auto;
+  background:#dadada;
+  box-shadow:0 2px 12px 0 rgba(0,0,0,0.5);
+
+}
+@media screen and (min-width: 1930px) {
+  .keyboard{
+    width:100%;
+    max-width:1030px;
+    margin:0 auto;
+    background:#dadada;
+    box-shadow:-10vw 0 0 0 rgba(253,224,224,1),10vw 0 0 0 rgba(253,224,224,1);
+    transform: translate(0px, -14.5vh) scale(3) !important;
+  }
+}
+@media screen and (max-width: 1920px) {
+  .keyboard{
+    width:100%;
+    max-width:1030px;
+    margin:0 auto;
+    background:#dadada;
+    box-shadow:-30vw 0 0 0 rgba(253,224,224,1),30vw 0 0 0 rgba(253,224,224,1);
+    transform: translate(0px, -7.5vh) scale(1.5) !important;
+  }
+}
+
+.keyboard-wrapper{
+  position:fixed;
+  bottom:0;
+  z-index:10000;
+  width:700px;
+  left:calc(50% - 350px)
+}
+.keyboard-wrapper .keyboard-row{
+  display:flex
+}
+.keyboard-button{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  flex-basis:100px;
+  font-size:18px;
+  height:60px;
+  border-radius:4px;
+  background-color:#F5F5F5;
+  border:1px solid #CECECE;
+  font-family:'Roboto', sans-serif;
+  font-weight:300
+}
+.keyboard-button:focus{
+  outline:none
+}
+.keyboard-button:disabled{
+  opacity:0.4;
+  cursor:default
+}
+.keyboard-button:disabled{
+  opacity:0.4;
+  cursor:default
+}
+.keyboard-button:active{
+  background-color:#cccccc
+}
+.keyboard-button.shift-symbols{
+  flex-basis:210px
+}
+.keyboard-button.keyboard-numberButton{
+  flex-grow:1
+}
+.keyboard-button.keyboard-halfButton{
+  flex-basis:56px
+}
+.keyboard-button.keyboard-space{
+  flex-grow:1
+}
+.keyboard-button.keyboard-utilButton{
+  flex-grow:2;
+  max-width:55px
+}
+.keyboard-button.keyboard-additionalButton{
+  flex-basis:128px
+}
+.keyboard-button.keyboard-submitButton,.keyboard-button.keyboard-submit-button{
+  flex-basis:95px;
+  background-color:#1D2972;
+  border-color:#1D2972;
+  color:#ffffff
+}
+.keyboard-keysSet{
+  display:flex;
+  flex-grow:1
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.play-shake{
+  animation: shake 0.5s;
+  background: #D4172F !important;
+  transition: background-color 0.1s;
+ }
+
+.wrong{
+  color: #D4172F !important;
+}
+/*# sourceMappingURL=Keyboard.css.map */
+
+input[type=checkbox] {
+  display:none;
+}
+
+input[type=checkbox] + label
+{
+  /*background: clear;*/
+  height: 16px;
+  width: 16px;
+  display:inline-block;
+  padding: 0 0 0 0px;
+  border: 3px solid rgba(253,224,224,1);
+}
+input[type=checkbox]:checked + label
+{
+  background: #1D2972;
+  height: 16px;
+  width: 16px;
+  display:inline-block;
+  padding: 0 0 0 0px;
+}
+
+
+input[type=checkbox] + label:before{
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  height: 22px;
+  width: 22px;
+  transform: translate(-0.82vw,-0.65vh);
+  border: 5px solid #1D2972;
+
+}

@@ -1,0 +1,62 @@
+
+html {
+    overflow:hidden;
+    background-color: #000000;
+}
+#root {
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    /*background-image: url("./Art/logo_whiteOnBlue.png");*/
+    /*background-repeat: no-repeat, repeat;*/
+    /*background-size: 30vh;*/
+    /*background-position: center;*/
+    /*background-position: bottom;*/
+}
+
+.landscape {
+    height: 100vh;
+    width: auto;
+}
+.portrait {
+    width: 100vw;
+    height: auto;
+}
+
+h1{
+    font-size: 5vh;
+    color: white;
+}
+h5{
+    font-size: 2vh;
+    color: white;
+}
+h2{
+    font-size: 4vh;
+    color: white;
+}
+h3{
+    font-size: 2.5vh;
+}
+
+label{
+    font-size: 2.5vh;
+    color : white;
+}
+input{
+    height: 2.5vh;
+    width: auto;
+    font-size: 2vh;
+}
+
+button{
+    height: 2.5vh;
+    width: auto;
+    font-size: 2vh;
+}
+
+select{
+    height: 2.5vh;
+    width: auto;
+    font-size: 1vh;
+}
