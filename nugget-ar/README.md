@@ -92,9 +92,9 @@ const videoPlayer = {
 #### App
 ![ar-demo](documents/ar-demo.png "demo")
 
-[promotion video link](https://www.linkedin.com/posts/next-now_augmentedabrreality-ar-webar-activity-6610618956057235456-Mt6D){:target="_blank"}
+[promotion video link](https://www.linkedin.com/posts/next-now_augmentedabrreality-ar-webar-activity-6610618956057235456-Mt6D)
 
 #### live demo
-[wunuggets](https://www.wunuggets.com/){:target="_blank"} - open this page on mobile then scan the below marker to start AR experience
+[wunuggets](https://www.wunuggets.com/) - open this page on mobile then scan the below marker to start AR experience
 
 ![marker](documents/blue.png "marker")

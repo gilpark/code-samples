@@ -75,11 +75,11 @@ handleData = (msg) =>{
 ### documentations
 ![wip0](documents/united1.gif "wip0")
 
-[video link](https://drive.google.com/file/d/131bkVGwt7nFUXfbyp60v187QBLVoqB9R/view?usp=sharing){:target="_blank"}
+[video link](https://drive.google.com/file/d/131bkVGwt7nFUXfbyp60v187QBLVoqB9R/view?usp=sharing)
 
 ![wip1](documents/united02.png "wip1")
 
-[video link](https://drive.google.com/open?id=1RGg2jl6wCTsMjPEUYIDbvm4fFYlV7Rth){:target="_blank"}
+[video link](https://drive.google.com/open?id=1RGg2jl6wCTsMjPEUYIDbvm4fFYlV7Rth)
 
 ![united](documents/United0.jpg "united0")
 ![united](documents/United1.jpg "united0")

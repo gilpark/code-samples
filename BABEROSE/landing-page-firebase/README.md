@@ -1,7 +1,7 @@
 ## Landing Page Template
 Basic landing page for firebase with dynamic OG meta tag swapping functionality. 
 
-[live demo](https://babe-landing.herokuapp.com/user/test){:target="_blank"}
+[live demo](https://babe-landing.herokuapp.com/user/test)
 
 In the project directory, you can run:
 
