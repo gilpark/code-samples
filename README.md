@@ -3,7 +3,7 @@
 * [BABE ROSE-Projection Bed](BABEROSE/) - Touch screen kiosk photo booth (React, express.js, TouchDesigner/Python), 2020
     * [project log](https://drive.google.com/open?id=1UpzV4eSG3WeJ0lvu2N6QV35moPl6eFwikoFQZV6edZg)
     
-* [Union western Denver Nuggets AR](nugget-ar/) - Web based AR (Web AR, A-frame, 8th wall), 2020
+* [Union western Denver Nuggets AR](nugget-ar/) - Web based AR (Web AR, A-frame, 8th wall), 2019
 
 * Essence project - Realtime LED video wall (Node.js, Touch designer/python), 2019
 
@@ -18,15 +18,14 @@
     
     * [project log](https://drive.google.com/open?id=1RMOwY5s3ULXyCe8iuEjn6LlHoBPlGxM3L5q5pxPObfI)
 
-
-* [NFLX Quarterback Challenge](https://github.com/sendtogil/qb_challenge) - Multi-lane Ball Toss (Unity3D/C#), 2017
-
-    * [video](https://drive.google.com/file/d/1S7QU8KGrZdbWbVP9blg0eZ18B8zLH9Gi/view) (from 1:26)
-
 * Heineken Ultra Festival - User entry visualization on 3d globe (Unity3D/C#), 2018
 
     * [video](https://drive.google.com/file/d/1_lOQdqi0DFiU484zocknd3g7_Bb_1q0z/view) of registration app
     * [video](https://drive.google.com/file/d/1Y4Jm9JhzeiH7oPcrZJmUEdBHkizNMnC2/view) of main app  
+
+* [NFLX Quarterback Challenge](https://github.com/sendtogil/qb_challenge) - Multi-lane Ball Toss (Unity3D/C#), 2017
+
+    * [video](https://drive.google.com/file/d/1S7QU8KGrZdbWbVP9blg0eZ18B8zLH9Gi/view) (from 1:26)
 
 * [Digital Globe](https://github.com/sendtogil/M1_data_globe) - Live tweet data visualization (Unity3D/C#), 2017
 
