@@ -21,7 +21,7 @@
 
 * [NFLX Quarterback Challenge](https://github.com/sendtogil/qb_challenge) - Multi-lane Ball Toss (Unity3D/C#), 2017
 
-    * [video](https://drive.google.com/file/d/1S7QU8KGrZdbWbVP9blg0eZ18B8zLH9Gi/view)
+    * [video](https://drive.google.com/file/d/1S7QU8KGrZdbWbVP9blg0eZ18B8zLH9Gi/view) (from 1:26)
 
 * Heineken Ultra Festival - User entry visualization on 3d globe (Unity3D/C#), 2018
 
