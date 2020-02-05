@@ -73,6 +73,8 @@ handleData = (msg) =>{
 /.../
 ```
 ### documentations
+* [project log](https://drive.google.com/open?id=1RMOwY5s3ULXyCe8iuEjn6LlHoBPlGxM3L5q5pxPObfI)
+
 ![wip0](documents/united1.gif "wip0")
 
 [video link](https://drive.google.com/file/d/131bkVGwt7nFUXfbyp60v187QBLVoqB9R/view?usp=sharing)

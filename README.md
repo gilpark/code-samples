@@ -1,6 +1,7 @@
 # Gil's Code samples & Project Documentation
 
 * [BABE ROSE-Projection Bed](BABEROSE/) - Touch screen kiosk photo booth (React, express.js, TouchDesigner/Python), 2020
+    * [project log](https://drive.google.com/open?id=1UpzV4eSG3WeJ0lvu2N6QV35moPl6eFwikoFQZV6edZg)
     
 * [Union western Denver Nuggets AR](nugget-ar/) - Web based AR (Web AR, A-frame, 8th wall), 2020
 
@@ -11,8 +12,12 @@
     * [video 2](https://drive.google.com/open?id=1oavkfJSVN0g8lPlVbC-tNSsl7w_IpUyN)
 
 * [Amway60 PhotoBooth](amway/) - Photo Booth application (Unity3D/C#, cycle.js, express.js), 2019
+    * [project log](https://drive.google.com/open?id=1_FNLEkTlt3Qpxq4VonpHcFzoK1tS_w1LoUaZiastDMk)
 
-* [United project](united/) - Multi display media playback system (React.js, cycle.js, express.js), 2018
+* [United multi display](united/) - Multi display media playback system (React.js, cycle.js, express.js), 2018
+    
+    * [project log](https://drive.google.com/open?id=1RMOwY5s3ULXyCe8iuEjn6LlHoBPlGxM3L5q5pxPObfI)
+
 
 * [NFLX Quarterback Challenge](https://github.com/sendtogil/qb_challenge) - Multi-lane Ball Toss (Unity3D/C#), 2017
 

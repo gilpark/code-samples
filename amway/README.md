@@ -155,6 +155,7 @@ used memory stream to divide a heavy process into smaller chunks
  ![new](documents/new_rec.png "new")
 
 ### documentation
+* [project log](https://drive.google.com/open?id=1_FNLEkTlt3Qpxq4VonpHcFzoK1tS_w1LoUaZiastDMk)
 #### Photo booth app 
 ![amway-photo](documents/Amway-app-wip0.jpg "wip0")
 #### landing page

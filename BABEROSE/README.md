@@ -104,6 +104,8 @@ function FilterSelection({ state, setState }) {
 ![profunctor](Documents/profunctor.png "pro0")
 
 ### documentation
+* [project log](https://drive.google.com/open?id=1UpzV4eSG3WeJ0lvu2N6QV35moPl6eFwikoFQZV6edZg)
+
 #### Photo booth app
 ![amway-photo](Documents/babe.gif "wip0")
 
