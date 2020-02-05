@@ -107,7 +107,7 @@ function FilterSelection({ state, setState }) {
 #### Photo booth app
 ![amway-photo](Documents/babe.gif "wip0")
 
-[video](https://drive.google.com/open?id=1nS21Z_5DBJJN8jTX9O3tBR80uoGN8zYh)
+[video](https://drive.google.com/open?id=1nS21Z_5DBJJN8jTX9O3tBR80uoGN8zYh){:target="_blank"}
 
 #### landing page
 [landing page doc](https://github.com/sendtogil/code-samples/tree/master/BABEROSE/landing-page-firebase)
