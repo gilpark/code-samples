@@ -28,6 +28,8 @@
     * [video](https://drive.google.com/file/d/1S7QU8KGrZdbWbVP9blg0eZ18B8zLH9Gi/view) (from 1:26)
 
 * [Digital Globe](https://github.com/sendtogil/M1_data_globe) - Live tweet data visualization (Unity3D/C#), 2017
+    
+    * [video](https://vimeo.com/179332299)
 
 * [Reactive State Machine](https://github.com/sendtogil/RxStateMachine/tree/master/Old) - UI First, Cancelable state machine (Unity3D/C#), 2018
 
