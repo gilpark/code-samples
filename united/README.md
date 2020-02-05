@@ -1,6 +1,6 @@
 # United Project(React, Cycle.js)
 
-###Code samples
+### Code samples
 #### src/components/VideoModule/VideoModule.js
 * video play back syncing across multiple devices via websocket
 ```javascript
@@ -72,7 +72,7 @@ handleData = (msg) =>{
   }
 /.../
 ```
-###documentations
+### documentations
 ![wip0](documents/united1.gif "wip0")
 
 [video link](https://drive.google.com/file/d/131bkVGwt7nFUXfbyp60v187QBLVoqB9R/view?usp=sharing)

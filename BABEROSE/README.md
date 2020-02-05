@@ -1,6 +1,6 @@
 # BABE Rose Project(React.js, Node.js)
 
-##Code samples
+## Code samples
 
 ### registration-app/web/node/index.js
 * handle events(websocket, express) as stream to manage complex sequential tasks: converting video to gif(ffmpeg), upload file to relay server, update google analytics and each tasks queued up per error for retry.
@@ -103,11 +103,11 @@ function FilterSelection({ state, setState }) {
 ### Diagram
 ![profunctor](Documents/profunctor.png "pro0")
 
-###Progress documentation
-####Photo booth app
+### documentation
+#### Photo booth app
 ![amway-photo](Documents/babe.gif "wip0")
 
 [video](https://drive.google.com/open?id=1nS21Z_5DBJJN8jTX9O3tBR80uoGN8zYh)
 
-####landing page
-link to landing page project
+#### landing page
+[landing page doc](https://github.com/sendtogil/code-samples/tree/master/BABEROSE/landing-page-firebase)

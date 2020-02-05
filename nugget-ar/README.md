@@ -1,6 +1,6 @@
 # Nugget-AR Project (A-frame, 8th wall)
 
-###Code samples
+### Code samples
 * use [A-frame](https://aframe.io/), [8th wall](https://www.8thwall.com/) to track marker and anchor 3d object on it
 ```javascript
 const videoPlayer = {
@@ -88,13 +88,13 @@ const videoPlayer = {
 }
 ```
 
-###Documentation
-####App
+### documentation
+#### App
 ![ar-demo](documents/ar-demo.png "demo")
 
 [promotion video link](https://www.linkedin.com/posts/next-now_augmentedabrreality-ar-webar-activity-6610618956057235456-Mt6D)
 
-####live demo
+#### live demo
 [wunuggets](https://www.wunuggets.com/) - open this page on mobile then scan the below marker to start AR experience
 
 ![marker](documents/blue.png "marker")

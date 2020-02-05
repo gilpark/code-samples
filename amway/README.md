@@ -1,7 +1,7 @@
 # Amway Project(Cycle.js)
 
-##Code samples
-####react-ui/src/app.tsx
+## Code samples
+#### react-ui/src/app.tsx
 * separated view from main logic for easier debugging and modification
 ```javascript
 export function responseView(response$,appName) {
@@ -144,18 +144,18 @@ return Observable.Create<MemoryStream>(obs =>
 
 ```
 #### diagram
-######process flow of original version
+###### process flow of original version
 
  ![old](documents/old_rec.png "old")
 
-######process flow of optimized version
+###### process flow of optimized version
 
 used memory stream to divide a heavy process into smaller chunks
 
  ![new](documents/new_rec.png "new")
 
-###documentations
-####Photo booth app 
+### documentation
+#### Photo booth app 
 ![amway-photo](documents/Amway-app-wip0.jpg "wip0")
-####landing page
+#### landing page
 ![amway-photo](documents/amway-landing0.png "wip0")
