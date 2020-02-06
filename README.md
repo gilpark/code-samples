@@ -34,3 +34,5 @@
 * [Reactive State Machine](https://github.com/sendtogil/RxStateMachine/tree/master/Old) - UI First, Cancelable state machine (Unity3D/C#), 2018
 
 * [EmoFlux](https://github.com/sendtogil/EmoFlux_Processing) – Live tweet data visualization (Unity3D/C#), 2015
+
+* [Why I decided to use Functional Lenses instead of Redux](https://sendtogil.github.io/code-samples/) - article 2020
