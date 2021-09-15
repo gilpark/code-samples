@@ -1,0 +1,76 @@
+{
+  "name": "create-svelte-electron-app",
+  "version": "0.1.0",
+  "description": "PM-totem",
+  "main": "main.js",
+  "author": "gil",
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/soulehshaikh99/create-svelte-electron-app"
+  },
+  "bugs": {
+    "url": "https://github.com/soulehshaikh99/create-svelte-electron-app/issues"
+  },
+  "build": {
+    "icon": "public/favicon.png",
+    "productName": "Totem",
+    "files": [
+      "public/**/*",
+      "main.js",
+      "file-server/**/*"
+    ],
+    "win": {},
+    "linux": {},
+    "mac": {},
+    "extraResources": [
+      {
+        "from": "data",
+        "to": "data"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "start": "sirv public",
+    "electron": "wait-on http://localhost:5000 && electron .",
+    "electron-dev": "concurrently \"npm run dev\" \"npm run electron\"",
+    "preelectron-pack": "npm run build",
+    "electron-pack": "electron-builder"
+  },
+  "dependencies": {
+    "@bulatdashiev/svelte-slider": "^1.0.3",
+    "@js-basics/vector": "^1.56.10",
+    "bezier-easing": "^2.1.0",
+    "cors": "^2.8.5",
+    "electron-root-path": "^1.0.16",
+    "electron-serve": "^1.0.0",
+    "express": "^4.17.1",
+    "lowdb": "^1.0.0",
+    "svelte-video-player": "^1.2.5"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-node-resolve": "^11.0.0",
+    "concurrently": "^5.3.0",
+    "electron": "^9.2.1",
+    "electron-builder": "^22.8.0",
+    "rollup": "^2.3.4",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-svelte": "^6.0.0",
+    "rollup-plugin-terser": "^6.0.0",
+    "rxjs": "^6.6.6",
+    "sirv-cli": "^1.0.0",
+    "svelte": "^3.35.0",
+    "svelte-rx": "0.0.7",
+    "svelte-slidy": "^2.6.3",
+    "video.js": "^7.11.8",
+    "wait-on": "^5.2.0",
+    "zingtouch": "^1.0.6"
+  },
+  "keywords": []
+}

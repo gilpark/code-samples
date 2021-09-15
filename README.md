@@ -4,12 +4,18 @@
   * [video 1](https://drive.google.com/file/d/1q2v6xP0MoipULU2liLCZebwc0g-clv8e/view?usp=sharing)
   * [video 2](https://drive.google.com/file/d/1oqKgFqOMLCpFIrnEtOwSzMQHCN43ZK92/view?usp=sharing)
   * [video 3](https://drive.google.com/file/d/15fE_dxQHR85s7y7v_WsEWkanF9FiMXva/view?usp=sharing)
+  * [Mobile app Link1](https://21.itec-ar.com/)
+  * [Mobile app Link2](https://22.itec-ar.com/)
+  * [Mobile app Link3](https://24.itec-ar.com/)
+
 
 * [Earth Explorer](earth-explorer/) - Projection table with geolocation data (svelte.js, cesium.js, node.js), 2021
+  * [project log](https://docs.google.com/document/d/1uLo3zXOgjHIZ-dSpyTeObnPABru5J2pWjlI1Rl4EZ48/edit?usp=sharing)
   * [video 1](https://drive.google.com/file/d/1EhHYihvC4hPGFzWnv5ML3AtN10DpcKAP/view?usp=sharing)
 
 
 * [Phillips-Medisize TouchScreen](Phillips/) - TouchScreen application (svelte.js, electron.js, node.js), 2021
+  * [project log](https://docs.google.com/document/d/1Lgdqslsi-6TY62mJSzBSiV8kpAVkiN58d_vsuMNnff4/edit?usp=sharing)
   * [video 1](https://drive.google.com/file/d/1g8VeD37ik6InfW5So2fuQK-Cs6qvyvDh/view?usp=sharing)
 
 
@@ -38,6 +44,7 @@
     * [video 2](https://drive.google.com/file/d/1HGOrvrbl6_LAfZKoXllBa3-z5izJ9lT_/view?usp=sharing)
 * 
 * [Why I decided to use Functional Lenses instead of Redux](https://sendtogil.github.io/code-samples/) - article 2020
+
 
 ## ~ 2018
 * Heineken Ultra Festival - User entry visualization on 3d globe (Unity3D/C#), 2018
