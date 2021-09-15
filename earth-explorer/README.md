@@ -34,7 +34,8 @@ parser.on('data', data =>{
 ```
 
 listening the data from client side
-`src/components/joysticks.js`
+
+[`app/components/joysticks.svelte`](https://github.com/gilpark/code-samples/blob/3f16e25d780c0b2a53e6d09e5b5a91f6b84f5e02/earth-explorer/app/components/Joysticks.svelte#L65)
 
 ```javascript
 /..../
@@ -63,8 +64,10 @@ socket.on('data', messages => {
 ```
 
 consuming 3DOF values in svelte/cesium
-api/store
-inputHandler
+
+[`app/api/stores.js`](https://github.com/gilpark/code-samples/blob/3f16e25d780c0b2a53e6d09e5b5a91f6b84f5e02/earth-explorer/app/api/stores.js#L86)
+
+[`app/components/InputHandler.svelt`](https://github.com/gilpark/code-samples/blob/3f16e25d780c0b2a53e6d09e5b5a91f6b84f5e02/earth-explorer/app/components/InputHandler.svelte#L47)
 
 
 ### documentation
