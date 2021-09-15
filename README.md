@@ -44,7 +44,7 @@
   * [project log](https://drive.google.com/open?id=1_FNLEkTlt3Qpxq4VonpHcFzoK1tS_w1LoUaZiastDMk)
 
 
-* [Why I decided to use Functional Lenses instead of Redux](https://docs.google.com/document/d/1csE9DrZTRbLrOJ7fAgDdmyb9Y1tppqp6-Ox-op2dz0c/edit?usp=sharing) - article 2020
+* [Why I decided to use Functional Lenses instead of Redux](https://gilpark.github.io/code-samples/) - article 2020
 
 
 ## ~ 2018
