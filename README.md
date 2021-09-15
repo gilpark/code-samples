@@ -64,5 +64,5 @@
 * [Reactive State Machine](https://github.com/sendtogil/RxStateMachine/tree/master/Old) - UI First, Cancelable state machine (Unity3D/C#), 2018
 
 
-* [EmoFlux](https://github.com/sendtogil/EmoFlux_Processing) – Live tweet data visualization (Unity3D/C#), 2015
+* [EmoFlux](https://github.com/sendtogil/EmoFlux_Processing) – Live tweet data visualization (Processing/Java), 2015
 
