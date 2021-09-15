@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  /*font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',*/
+  /*  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',*/
+  /*  sans-serif;*/
+  font-family:  -apple-system,'FreigSan Pro Medium', 'FreigSan Pro Sem','FreigSan Pro Bold','TradeGothic',  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'FreigSan Pro Bold';
+  src: local('FreigSan Pro Bold'), url(./assets/font/FreigSanProBold.otf) format('opentype');
+}
+@font-face {
+  font-family: 'FreigSan Pro Medium';
+  src: local('FreigSan Pro Medium'), url(./assets/font/FreigSanProMed.otf) format('opentype');
+}
+@font-face {
+  font-family: 'FreigSan Pro Sem';
+  src: local('FreigSan Pro Sem'), url(./assets/font/FreigSanProSem.otf) format('opentype');
+}
+@font-face {
+  font-family: 'TradeGothic';
+  src: local('TradeGothic'), url(./assets/font/TradeGothicLTPro-BdCn20.otf) format('opentype');
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

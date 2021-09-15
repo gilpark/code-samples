@@ -1,0 +1,39 @@
+<html><head>
+    <script src="https://cesiumjs.org/releases/1.56.1/Build/Cesium/Cesium.js"></script>
+    <link href="https://cesiumjs.org/releases/1.56.1/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
+    <style>#map { position:absolute; top:20px; left:20px; width:95%; height:95%}</style></head>
+<body><div id="cesiumContainer"></div>
+<script type="text/javascript">
+    var connectId = 'a19b0475-92b0-48d9-b323-3918b14523a7';
+
+    Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI5N2U0MzAzOC1kNmYyLTQxYTYtYWI2Ni05MWQ5YmY5NDc3ZTYiLCJpZCI6NDU1ODAsImlhdCI6MTYxNTI1NzgzNX0.rNNr4f_-uQDUTmp4oBYmG72h6NEDtg-dE0EwrK2nyuM'
+    //https://securewatch.digitalglobe.com/earthservice/tmsaccess/tms/1.0.0/DigitalGlobe%3AImageryTileService@EPSG%3A3395@jpeg?connectId=a19b0475-92b0-48d9-b323-3918b14523a7
+//     var tmsImagery = new Cesium.UrlTemplateImageryProvider({
+//         url : 'https://securewatch.digitalglobe.com/earthservice/tmsaccess/tms/1.0.0/DigitalGlobe:ImageryTileService@EPSG:3857@jpg/{z}/{x}/{reverseY}.jpg?connectId=' + connectId,
+//         credit : '© DigitalGlobe',
+//         tilingScheme : new Cesium.WebMercatorTilingScheme(),
+//         maximumLevel : 20
+//     });
+// //https://securewatch.digitalglobe.com/earthservice/tmsaccess/tms/1.0.0?connectid=a19b0475-92b0-48d9-b323-3918b14523a7
+//     var tmsOsmTiles = new Cesium.UrlTemplateImageryProvider({
+//         url : 'https://securewatch.digitalglobe.com/earthservice/tmsaccess/tms/1.0.0/Digitalglobe:OSMTMSTileService@EPSG:3857@jpg/{z}/{x}/{reverseY}.jpg?connectId=' + connectId,
+//         credit : '© DigitalGlobe',
+//         tilingScheme : new Cesium.WebMercatorTilingScheme(),
+//         maximumLevel : 20
+//     });
+
+    var terrainProvider = Cesium.createWorldTerrain();
+    var imagery = Cesium.createDefaultImageryProviderViewModels();
+
+    var viewer = new Cesium.Viewer('cesiumContainer', {
+        // selectionIndicator: false, baseLayerPicker: false,
+        timeline: false, animation: false,
+        terrainProvider: terrainProvider,
+        imageryProviderViewModels: imagery,
+        selectedImageryProviderViewModel: imagery[1]
+    });
+
+    // var layers = viewer.scene.imageryLayers;
+    // var backgroundLayer = layers.addImageryProvider(tmsOsmTiles).alpha = 0.3;
+    // var imageryLayer = layers.addImageryProvider(tmsImagery).alpha = 0.7;
+</script></body></html>

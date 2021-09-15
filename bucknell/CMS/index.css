@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  /*width: 100vw;*/
+  /*height: 100vh;*/
+  font-family:  -apple-system,'FreigSan Pro Medium', 'FreigSan Pro Sem','FreigSan Pro Bold','TradeGothic',  sans-serif;
+
+}
+
+#root{
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+@font-face {
+  font-family: 'FreigSan Pro Bold';
+  src: local('FreigSan Pro Bold'), url(./assets/font/FreigSanProBold.otf) format('opentype');
+}
+@font-face {
+  font-family: 'FreigSan Pro Medium';
+  src: local('FreigSan Pro Medium'), url(./assets/font/FreigSanProMed.otf) format('opentype');
+}
+@font-face {
+  font-family: 'FreigSan Pro Sem';
+  src: local('FreigSan Pro Sem'), url(./assets/font/FreigSanProSem.otf) format('opentype');
+}
+@font-face {
+  font-family: 'TradeGothic';
+  src: local('TradeGothic'), url(./assets/font/TradeGothicLTPro-BdCn20.otf) format('opentype');
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
