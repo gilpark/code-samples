@@ -2,70 +2,35 @@
 
 ### Code samples
 
-Read and parse Serial data from node.js
-`server/index.js`
+Filtering scrolling up/down event when user is swiping left/right by calculating touch direction.
+[`touchscreen/libs/Swipeable/Swipeable.svelte`](https://github.com/gilpark/code-samples/blob/0b224691e3fb92eb44f831fe78e2fd7420d958f1/Phillips/touchscreen/src/libs/Swipeable/Swipeable.svelte#L66)
 
 ```javascript
-const server = require('http').Server(app)
-const io = require('socket.io')(server, { cors: { origin: '*' } })
+function move(position) {
+  if(block) return;
+  if (!dragging) return
+  let delta = calc(()=>position - lastPosition)
+  let angleDelta = calc(()=>position - initialPosition)
+  let rad =  Math.atan2(angleDelta.y,angleDelta.x);
+  const sin = Math.abs(Math.sin(rad)).toFixed(3) //y
+  const cos = Math.abs(Math.cos(rad)).toFixed(3) //x
+  const isVertical = direction === 'vertical'
+  const inRange = (isVertical ?cos :sin) < 0.85 //angle threshold
+  //todo wish list: ignore when inRange value is jumpy
+  blockEvent = inRange
+  if(!inRange) return
 
-/..../
-
-const serport = new SerialPort(serial_port, { baudRate: baudRate })
-const parser = serport.pipe(new SerialPort.parsers.Readline({ delimiter: '\r' }))
-
-serport.on('error', function(err) {
-    console.log('Error: ', err.message)
-})
-
-parser.on('data', data =>{
-    console.log(data)
-    let values = data.split(' ')
-    let d = {
-        x: parseFloat(values[1]),
-        y: parseFloat(values[2]),
-        z: parseFloat(values[3])
-    }
-    if(values[0] === "0x80") {
-        io.emit('data', d)
-    }
-})
+  lastPosition = position.clone()
+  const d = direction==='vertical'? delta.y : delta.x
+  draggedPixels -= d * speed
+  if (draggedPixels < 0) draggedPixels = 0
+  if (draggedPixels > maxSlideIndex * size) draggedPixels = maxSlideIndex * size
+  draggedBack = d < 0
+  jumpEnabled = false
+  $progress = (draggedPixels / size) || 0
+}
 ```
-
-listening the data from client side
-`src/components/joysticks.js`
-
-```javascript
-/..../
-const socket = io('http://localhost:3000')
-
-socket.on('connect', function(data) {
-    // socket.emit('join', 'Hello World from client');
-})
-
-let tempX= 0, tempY= 0, tempZ = 0
-socket.on('data', messages => {
-    const {x,y,z} = messages
-    const targetX = x.remap(-20,20,-1,1,true) * (INVERT_X? -1 :1)
-    const targetY = y.remap(-20,20,-1,1,true) * (INVERT_Y? -1 :1)
-
-    //todo config zoom min/max range
-    const targetZ =  (z - tempZ).remap(-15,15,-1,1,true)  * (INVERT_Z? -1 :1)
-    input$.set({
-        tilt: { x: targetX, y: targetY },
-        zoom: targetZ
-    })
-    tempX = x
-    tempY = y
-    tempZ = z
-})
-```
-
-consuming 3DOF values in svelte/cesium
-api/store
-inputHandler
-
 
 ### documentation
 #### App
- * [video 1](https://drive.google.com/file/d/1EhHYihvC4hPGFzWnv5ML3AtN10DpcKAP/view?usp=sharing)
+  * [video 1](https://drive.google.com/file/d/1g8VeD37ik6InfW5So2fuQK-Cs6qvyvDh/view?usp=sharing)
